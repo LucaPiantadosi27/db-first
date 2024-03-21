@@ -1,0 +1,16 @@
+Tabella: Auto Usate
+
+
+ID: SMALLINT, PK
+CasaMadre: VARCHAR (25),  NOT NULL
+NazioneOrigine: VARCHAR (2),
+Modello: VARCHAR (50),  NOT NULL
+NumeroPorte: TINYINT,  NOT NULL
+AnnoProduzione: YEAR,  NOT NULL
+AnnoImmatricolazione: YEAR,  NOT NULL
+Km: MEDIUMINT,  NOT NULL
+TipoCambio: VARCHAR (30),
+IdColore: SMALLINT,
+TipoCarburante: VARCHAR (30),
+Prezzo: FLOAT,  NOT NULL
+Descrizione: TEXT, 
