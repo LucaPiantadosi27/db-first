@@ -12,5 +12,5 @@ Km: MEDIUMINT,  NOT NULL
 TipoCambio: VARCHAR (30),
 IdColore: SMALLINT,
 TipoCarburante: VARCHAR (30),
-Prezzo: FLOAT,  NOT NULL
+Prezzo: DECIMAL (8,2),  NOT NULL
 Descrizione: TEXT, 
